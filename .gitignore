@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime / experiments
+runs/
+wandb/
+dist/
+work/
+resultado*/
+resultados*/
+demo*/
+nuevo_set_validacion/
+nuevo_consentimiento_test/
+
+# Clinical / personal data — NEVER COMMIT
+datos/**
+!datos/Consentimientos/
+!datos/Consentimientos/Plantillas base/
+!datos/Consentimientos/Plantillas base/*.pdf
+
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+
+# Model weights ARE intentionally versioned with Git LFS.
+# Do not add a general *.pt ignore rule.
+
+# Generated images / stamps
+*.jpg
+*.jpeg
+*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
