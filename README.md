@@ -1,4 +1,4 @@
-# INDISA Consent AI
+# INDISA Consentimientos AI
 
 Este repositorio contiene el código fuente del sistema de revisión automática de consentimientos informados de Clínica INDISA, desarrollado en Python.
 
